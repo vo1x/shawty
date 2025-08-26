@@ -1,0 +1,13 @@
+[package]
+name = "shawty"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.46", features = ["derive"] }
+chromiumoxide = { git = "https://github.com/mattsse/chromiumoxide", features = ["tokio-runtime"], default-features = false, branch = "main"}
+futures = "0.3.30"
+tokio = { version = "1.37.0", features = ["full"] }
+serde_json = "1.0"
+
+
