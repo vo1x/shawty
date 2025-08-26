@@ -54,5 +54,5 @@ shawty --url https://example.com --keep ".article" --delete ".ads, .sidebar"
 
 ## Requirements
 
-- Rust 1.70+ 
+- Rust 1.75+ (supports 2024 edition)
 - Chrome/Chromium browser (automatically downloaded by chromiumoxide)
