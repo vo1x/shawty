@@ -1,6 +1,6 @@
 # shawty
 
-A very webpage screenshot utlity built with Rust.
+A very simple webpage screenshot utlity built with Rust.
 
 ## Usage
 
